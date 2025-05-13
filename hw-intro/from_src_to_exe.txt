@@ -1,0 +1,13 @@
+1.  subl	$1, %eax
+	subl	$12, %esp
+	pushl	%eax
+	call	recur
+2. .text is the instructions of the code, .data is the global or static data.
+3. i386-objdump -t
+4. g-global, O-data object, F-function, *UND*-undefined.
+5. undefined symbols are resolved.
+6. .text
+7. .bs or .data
+8. No, they are runtime allocation.
+9. Grow towards lower address.
+10. change CFLAGS to CFLAGS?=-g -DCS162.
