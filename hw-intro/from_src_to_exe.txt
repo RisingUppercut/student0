@@ -6,7 +6,7 @@
 3. i386-objdump -t
 4. g-global, O-data object, F-function, *UND*-undefined.
 5. undefined symbols are resolved.
-6. .text
+6. .text.
 7. .bs or .data
 8. No, they are runtime allocation.
 9. Grow towards lower address.
